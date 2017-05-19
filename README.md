@@ -21,7 +21,12 @@ The $INSTALL_DIRECTORY variable is used in several scripts to determine where th
 been downloaded to. Please amend this variable otherwise examples which including reading and writing data to files
 will not work.
 
+All content in this course is self made. The only content in this course not made by me is the cheat sheet under "Documentation/PowerShell Cheat SheetV2.00.pdf"
+
+
 GUIDE:
+Print off the cheat sheet under the "Documentation" folder and provide this to students before beginning the course.
+
 Begin the course by running through the PowerPoint, up to slide 5, with the class. 
 Once the aims and background sections have been covered then open all of the PS1 files and continue the course in ISE.
 
@@ -189,6 +194,7 @@ layout. Directly comparisons should be drawn between the good and bad examples, 
 comments. These are, after all, for our own benefit! 
 
 CLOSING NOTES:
+
 A lot of effort was put into producing this course. You're free to use the material for your own means, but please credit 
 the source. 
 
