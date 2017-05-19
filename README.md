@@ -99,6 +99,7 @@ was deemed too advanced for a beginners course. For clarification, an advanced f
 
 So, for example:
 
+```
 function Get-CompDisk
 {
     <#
@@ -162,6 +163,7 @@ Process {
 　
     } # END OF END
 } # END OF FUNCTION
+```
 
 
 8) APIs
