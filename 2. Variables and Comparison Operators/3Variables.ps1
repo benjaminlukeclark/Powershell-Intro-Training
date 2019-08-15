@@ -4,6 +4,14 @@
 
 $AssignedVar = "Dionysus"
 
+"Steve" | New-variable -Name SteveVar
+
+## How to set a variable
+
+Set-Variable -Name SteveVar -Value "Bob"
+
+$SteveVar = "David"
+
 ##### End of how to assign a variable #######################
 
 # Example number varaible 1
@@ -31,23 +39,12 @@ Write-Host $NumVariable1
 
 ##### End of how to assign a variable ########################
 
+## typecast
 
-##### Variables scopes #######################################
-
-$Services = Get-Service *
-$Services
+[string]$IntExampleAsString = 10
 
 
-foreach ($Service in $Services) {
-
-$Name = $Service.Name
-$Status = $Service.Status
-$SrvMsg = $Name + " is " + $Status
-
-Write-Host $SrvMsg
 
 
-}
 
 
-##### End of Variable Scopes ##################################
