@@ -4,6 +4,7 @@ This branch is to track new developments in the course material.
 # To do
 # v3.0
 - [ ] Redo word docs in markup
+- [ ] Coab with https://github.com/vexx32/PSKoans ?
 
 
 # v2.0
