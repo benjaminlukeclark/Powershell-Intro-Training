@@ -2,7 +2,7 @@
 This branch is to track new developments in the course material.
 
 # To do
-# 3.0
+# v3.0
 - [ ] Redo word docs in markup
 
 
