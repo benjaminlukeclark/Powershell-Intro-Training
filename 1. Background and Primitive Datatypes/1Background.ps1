@@ -2,7 +2,28 @@
 
 ### Scripting language ######################################################
 ### example = new user scripts
-### real world execution is the new user scripts
+### real world execution is the new user scripts and CommVault monitors
+
+
+### Examples to get people excited
+
+# Query a database of cat facts then read them out using a speech synthesizer
+function CatFactsGalore{
+
+    Add-Type -AssemblyName System.Speech
+    $SpeechSynth = New-Object System.Speech.Synthesis.SpeechSynthesizer
+    $Random = Get-Random -Maximum 200
+    $CatFact = (ConvertFrom-Json (Invoke-WebRequest -Uri http://www.catfact.info/api/v1/facts.json?per_page=200)).Facts[$Random]
+    $SpeechSynth.Speak("did you know?")
+    $SpeechSynth.Speak($CatFact.details)
+} 
+
+CatFactsGalore
+
+
+# ASCI rickroll
+
+iex (New-Object Net.WebClient).DownloadString("http://bit.ly/e0Mw9w")
 
 
 ##############################################################################
@@ -33,8 +54,16 @@ Write-Host "Hello"
 
 ###############################################################################
 
-### START BASED ON .NET ############################################################
+##############
 
+# JIT compliation rather than static
+
+
+###########
+
+### START BASED ON .NET ############################################################
+# Explain common language runtime by speaking in German then using the example of a translator
+# Means you can directly manipulate and use .NET libraries
 
 # Create a GUI ############################################################################################
 
@@ -63,10 +92,13 @@ $GUIExample.Add_Shown({$GUIExample.Activate()})
 # Show the GUI
 [void]$GUIExample.ShowDialog()
 
+
+
+
 # End of GUI ############################################################################################
 
 ##### Invoke Excel ######################################################################################
-
+# .NET also means you can manipulate other objects based on it like .COM objects (e.g. Excel)
 
 $excel = New-Object -ComObject Excel.Application
 $excel.Visible = $true
@@ -101,3 +133,16 @@ Set-Content -Path $ItemPath -Value "Sir Kill-A-Lot is the best house robot becau
 Remove-Item -Path $ItemPath
 
 ##### END OF NAMING STRUCTURE ############################################################################
+
+## Above are most common starts for cmdlets
+## explain what each one will do/does
+
+# Get gets things
+# New makes new things
+# Add adds something to an existing object
+# Set overwrites something in an object
+# Remove removes an object
+
+
+## explain that powershell is object-orientated but not in the same way as c# for example
+## explain the pipe and how it lets you pass things through
