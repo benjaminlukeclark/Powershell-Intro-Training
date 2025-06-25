@@ -1,3 +1,10 @@
+> ⚠️ **Legacy Project Notice**  
+> This repository was originally developed as an internal training tool for PowerShell onboarding at Exponential-E (circa 2018).  
+> It introduces key scripting concepts through Pester-based unit tests, enabling self-paced, test-driven learning.  
+> 
+> While not actively maintained, it remains public for educational and historical purposes.
+
+
 # PowerShell Intro Training
 
 This repo contains my own self-made introduction to PowerShell course.
