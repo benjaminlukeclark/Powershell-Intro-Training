@@ -1,47 +1,87 @@
-> ⚠️ **Legacy Project Notice**  
-> This repository was originally developed as an internal training tool for PowerShell onboarding at Exponential-E (circa 2018).  
-> It introduces key scripting concepts through Pester-based unit tests, enabling self-paced, test-driven learning.  
-> 
-> While not actively maintained, it remains public for educational and historical purposes.
+> ⚠️ **Legacy Project — Instructor-Led Course**  
+> Originally created in 2018 as a formal PowerShell training course at Exponential‑E.  
+> Designed to be delivered by an instructor in a classroom or workshop environment.  
+>  
+> 📚 Not actively maintained — provided as a reference for structured technical instruction.
 
 ---
 
 # PowerShell Intro Training
 
-A self-paced PowerShell fundamentals course built using [Pester](https://pester.dev/) for interactive test-driven learning.
+A structured, instructor-led PowerShell course designed to teach scripting fundamentals through guided modules, exercises, and group delivery.
 
-This module was designed to:
+---
 
-- Provide guided PowerShell scripting exercises
-- Reinforce concepts through unit test feedback
-- Support onboarding for junior engineers and automation teams
-- Encourage hands-on learning via real-world IT scripting patterns
+## 🎯 Course Objectives
 
-## Getting Started
+By the end of this course, participants will be able to:
 
-The content in this repo is intended to be used by a Technical Trainer, with sufficent knowledge of PowerShell, to train a class of up to 8 individuals.
+1. Use PowerShell to navigate the filesystem, manage variables, and automate repetitive tasks
+2. Write basic functions and scripts with control structures (loops, conditionals)
+3. Understand and apply PowerShell error handling
+4. Build good scripting habits including formatting, documentation, and testing
 
-The course, in its entirity, is broken down into 3 x 2.5 hour workshops. Each workshop generally follows the rule of introducing a concept and then using activities or examples to reinforce said concept.
+---
 
-Optionally, you can lead a 4th workshop to try and round all the content together. However, I've found that the content of this would vary from group to group, and it'd generally fall to the Technical Trainer to decide which areas the group need reinforcement. I've provided a task sheet that I've used in previous iteratons of the course for guidance.
+## 🏫 Intended Use
 
-Read the storyboard for each workshop for more information. See below for the learning objectives for each workshop. It is heavily recommended to run through the workshops, 1 to 3, in order. Ideally a week between workshops tends to be a good guideline, but then balancing that with scheduling can be a nightmare.
+This repository is intended to be used by technical trainers or team leads as:
 
-## Learning Objectives
-**1 - Background and Primitive Datatypes**
-- [ ] Navigate the Console and Intergrated Scripting Environment with confidence 
-- [ ] Utilise common PowerShell commands, and community resources, to self-help when unsure of a cmdlet’s purpose of how to perform a task
-- [ ] Demonstrate basic knowledge of PowerShell as a language, including its syntax and background
-- [ ] Demonstrate application of knowledge about PowerShell primitive datatypes
+- An **instructor-led classroom course**
+- A **live internal workshop** for new hires or junior engineers
+- A **template for delivering bespoke scripting content**
 
-**2 - Variables and Comparison Operators**
-- [ ] Navigate the Console and Intergrated Scripting Environment with confidence 
-- [ ] Demonstrate application of knowledge about variables and comparison operators
+Each module is designed to be introduced by an instructor, demonstrated live, and then reinforced through group or individual exercises.
 
-**3 - Control Structures, Functions and Standards**
-- [ ] Navigate the Console and Intergrated Scripting Environment with confidence 
-- [ ] Demonstrate application of knowledge about control structures and functions
+---
 
+## 🗂 Course Modules
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+```
+PowerShell-Intro-Training/
+├── Modules/         # Slide decks or lesson scripts
+├── Exercises/       # Practice scripts and problems
+├── Examples/        # Instructor demo code
+├── Assessments/     # Optional evaluation activities
+└── README.md
+```
+
+Module topics include:
+
+- Navigating the Shell & Cmdlet Syntax
+- Variables, Arrays, and HashTables
+- Loops, Conditionals, and Script Logic
+- Functions and Parameter Handling
+- Working with the Filesystem
+- Introduction to Error Handling
+- Real-world Use Cases and Scenarios
+
+---
+
+## 👨‍🏫 Delivery Recommendations
+
+- 👥 Ideal class size: 6–12 learners
+- 🕒 Total estimated time: 1–2 days
+- 🧑‍🏫 Requires a trainer familiar with PowerShell scripting
+- 💬 Encourages instructor walkthroughs, live demos, and pair programming
+
+---
+
+## 🧪 Status & Notes
+
+- 🔸 Legacy content originally built for internal delivery
+- 🔸 Not actively updated, but still structurally sound
+- 🔸 Can be adapted to new internal onboarding programmes
+
+---
+
+## 🐶 License
+
+[MIT License](./LICENSE)
+
+---
+
+## 📬 Contact
+
+Developed by [Benjamin Luke Clark](https://github.com/benjaminlukeclark)  
+More projects and tooling: [sudoblark.com](https://sudoblark.com)
